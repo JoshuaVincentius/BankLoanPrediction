@@ -2,7 +2,7 @@
 
 This is the notebook file about prediction on customers risk using bank loan history (training) dataset of a banking company. The file includes analysis on customer behavior, prediction modelling, prediction on customers risk flag using test data and business simulation to compare the results if we implement the machine learning model.
 
-The data itself has 252.000 rows and 13 columns with risk flag as its target variable. Risk flag '0' means 'not risky' and '1' means 'risky'.
+The training data itself has 252.000 rows and 13 columns with risk flag as its target variable. Risk flag '0' means 'not risky' and '1' means 'risky'. Meanwhile, the test data has 28.000 rows and 12 columns and it will be used to predict the risk flag using the Machine Learning model that we design.
 
 Column	Description	Type
 - income:	Income of the user
